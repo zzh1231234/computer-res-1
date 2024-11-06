@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>电脑预约系统</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>电脑预约系统</h1>
+
+<form id="reservationForm">
+  <label for="computer">电脑编号:</label>
+  <input type="number" id="computer" required>
+  <br>
+  <label for="date">使用日期:</label>
+  <input type="date" id="date" required>
+  <br>
+  <button type="submit">预约</button>
+</form>
+
+<table id="reservationTable">
+  <thead>
+    <tr>
+      <th>电脑编号</th>
+      <th>时间1</th>
+      <th>时间2</th>
+      <th>时间3</th>
+      <th>时间4</th>
+      <th>时间5</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td class="time1"></td>
+      <td class="time2"></td>
+      <td class="time3"></td>
+      <td class="time4"></td>
+      <td class="time5"></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td class="time1"></td>
+      <td class="time2"></td>
+      <td class="time3"></td>
+      <td class="time4"></td>
+      <td class="time5"></td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td class="time1"></td>
+      <td class="time2"></td>
+      <td class="time3"></td>
+      <td class="time4"></td>
+      <td class="time5"></td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td class="time1"></td>
+      <td class="time2"></td>
+      <td class="time3"></td>
+      <td class="time4"></td>
+      <td class="time5"></td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td class="time1"></td>
+      <td class="time2"></td>
+      <td class="time3"></td>
+      <td class="time4"></td>
+      <td class="time5"></td>
+    </tr>
+  </tbody>
+</table>
+
+<script src="app.js"></script>
+</body>
+</html>
